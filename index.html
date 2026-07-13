@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AI Career Hub</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+     
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+
+<body>
+
+<nav class="navbar">
+
+    <div class="logo">
+        <i class="fas fa-graduation-cap"></i> AI Career Hub
+    </div>
+    <div class="menu-toggle">☰</div>
+
+<ul class="nav-links">
+    <li><a href="#home">Home</a></li>
+    <li><a href="#roadmaps">Roadmaps</a></li>
+    <li><a href="#tools">AI Tools</a></li>
+    <li><a href="#jobs">Internships</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+</ul>
+
+    <button id="themeToggle">🌙</button>
+</nav>
+
+<section class="hero" id="home">
+    <div class="hero-text">
+        <h1>Accelerate Your Career in Artificial Intelligence</h1>  
+        <p>
+        Learn AI from structured roadmaps, explore industry tools, discover internships, and build real-world projects—all in one platform.
+        </p>
+       <div class="hero-buttons">
+        <button id="getStartedBtn">
+            Get Started
+        </button>
+        <button onclick="window.open('https://huggingface.co','_blank')">
+            Explore Tool
+        </button>
+    </div>
+    </div>
+
+    <div class="hero-image">
+        <img src="assets/images/ai.svg" alt="AI Illustration">
+    </div>
+</section>
+<section class="features" id="features">
+
+    <h2>Why Choose AI Career Hub?</h2>
+
+    <div class="feature-container">
+
+        <div class="feature-card">
+            <i class="fas fa-book-open"></i> Structured Learning
+            <p>Access curated AI courses, tutorials, and documentation to build a strong foundation.</p>
+        </div>
+
+        <div class="feature-card">
+            <i class="fas fa-route"></i> Career Roadmaps
+            <p>Follow structured learning paths to become an AI Engineer, ML Engineer, or Data Scientist.</p>
+        </div>
+
+        <div class="feature-card">
+            <i class="fas fa-briefcase"></i> Internship Opportunities
+            <p>Discover internship opportunities to gain practical industry experience.</p>
+        </div>
+
+        <div class="feature-card">
+            <i class="fas fa-laptop-code"></i> Real Projects>
+            <p>Build hands-on AI projects that strengthen your portfolio and resume.</p>
+        </div>
+
+    </div>
+
+</section>
+<section class="roadmaps" id="roadmaps">
+
+    <h2>AI Career Roadmaps</h2>
+    <p class="section-subtitle">
+        Follow a structured learning path to build a successful career in Artificial Intelligence.
+    </p>
+
+    <div class="roadmap-container">
+
+        <div class="roadmap-card">
+            <span>1</span>
+            <i class="fas fa-code"></i> Python Programming
+
+            <p>
+                 ✔ Variables<br>
+                 ✔ Loops<br>
+                 ✔ Functions<br>
+                 ✔ OOP<br>
+                 ✔ NumPy & Pandas
+            </p>
+
+    <button onclick="window.open('https://www.python.org/about/gettingstarted/','_blank')">
+        Start Learning
+    </button>
+
+</div>
+
+        <div class="roadmap-card">
+            <span>2</span>
+            <i class="fas fa-square-root-alt"></i> Mathematics
+
+            <p>
+                ✔ Statistics<br>
+                ✔ Probability<br>
+                ✔ Linear Algebra<br>
+                ✔ Calculus
+            </p>
+
+    <button onclick="window.open('https://www.khanacademy.org/math','_blank')">
+        Start Learning
+    </button>
+
+</div>
+
+        <div class="roadmap-card">
+            <span>3</span>
+            <i class="fas fa-robot"></i> Machine Learning
+            
+            <p>
+                ✔ Regression<br>
+                ✔ Classification<br>
+                ✔ Clustering<br>
+                ✔ Model Evaluation
+            </p>
+
+    <button onclick="window.open('https://developers.google.com/machine-learning/crash-course','_blank')">
+        Start Learning
+    </button>
+
+</div>
+
+        <div class="roadmap-card">
+            <span>4</span>
+             <i class="fas fa-brain"></i> Deep Learning
+             
+             <p>
+                ✔ Neural Networks<br>
+                ✔ CNN<br>
+                ✔ RNN<br>
+                ✔ TensorFlow
+            </p>
+
+    <button onclick="window.open('https://www.tensorflow.org/tutorials','_blank')">
+        Start Learning
+    </button>
+
+</div>
+
+       <div class="roadmap-card">
+        <span>5</span>
+        <i class="fas fa-eye"></i> Computer Vision & NLP
+        
+        <p>
+            ✔ OpenCV<br>
+            ✔ Image Processing<br>
+            ✔ Transformers<br>
+            ✔ Sentiment Analysis
+        </p>
+
+    <button onclick="window.open('https://huggingface.co/learn','_blank')">
+        Start Learning
+    </button>
+
+</div>
+       <div class="roadmap-card">
+        <span>6</span>
+        <i class="fas fa-wand-magic-sparkles"></i> Generative AI
+
+        <p>
+            ✔ Prompt Engineering<br>
+            ✔ LLMs<br>
+            ✔ AI Agents<br>
+            ✔ RAG
+        </p>
+
+    <button onclick="window.open('https://learn.deeplearning.ai/','_blank')">
+        Start Learning
+    </button>
+
+</div>
+
+    </div>
+
+</section>
+
+<section class="tools" id="tools">
+
+    <h2>Popular AI Tools</h2>
+
+    <p class="section-subtitle">
+        Explore the most popular AI tools used by students, developers, and AI professionals.
+    </p>
+
+    <div class="tools-container">
+
+        <div class="tool-card">
+            <h3><i class="fas fa-robot"></i> ChatBot</h3>
+            <p>Your AI assistant for coding, learning, writing, and problem-solving.</p>
+            <button onclick="window.open('https://chatgpt.com','_blank')">
+                Visit Tool
+            </button>
+        </div>
+
+        <div class="tool-card">
+            <h3><i class="fab fa-github"></i> GitHub Copilot</h3>
+            <p>AI-powered coding assistant that helps you write code faster.</p>
+            <button onclick="window.open('https://github.com/features/copilot','_blank')">
+                Visit Tool
+            </button>
+        </div>
+
+        <div class="tool-card">
+            <h3><i class="fas fa-chart-line"></i> Kaggle</h3>
+            <p>Practice Machine Learning with datasets, notebooks, and competitions.</p>
+            <button onclick="window.open('https://www.kaggle.com','_blank')">
+                Visit Tool
+            </button>
+        </div>
+
+        <div class="tool-card">
+            <h3><i class="fas fa-cloud"></i> Google Colab</h3>
+            <p>Run Python and Machine Learning notebooks directly in your browser.</p>
+            <button onclick="window.open('https://colab.research.google.com','_blank')">
+                Visit Tool
+            </button>
+        </div>
+
+        <div class="tool-card">
+            <h3><i class="fas fa-face-smile"></i> Hugging Face</h3>
+            <p>Discover thousands of open-source AI models for NLP and Computer Vision.</p>
+            <button onclick="window.open('https://huggingface.co','_blank')">
+                Visit Tool
+            </button>
+        </div>
+
+        <div class="tool-card">
+            <h3><i class="fas fa-brain"></i> TensorFlow</h3>
+            <p>Build and deploy powerful Deep Learning models with TensorFlow.</p>
+            <button onclick="window.open('https://www.tensorflow.org','_blank')">
+                Visit Tool
+            </button>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="internships" id="jobs">
+
+    <h2>Latest AI Internship Opportunities</h2>
+
+    <div class="internship-container">
+
+        <div class="internship-card">
+            <h3>
+                <i data-lucide="bot"></i>
+                Machine Learning Intern  
+            </h3>
+            <p><strong>Mode:</strong> Remote</p>
+            <p><strong>Duration:</strong> 3 Months</p>
+            <p><strong>Skills:</strong> Python, Scikit-learn, Pandas</p>
+            <button onclick="window.open('https://internshala.com/internships/machine-learning-internship/','_blank')">
+                Apply Now
+            </button>
+        </div>
+
+        <div class="internship-card">
+            <h3>
+                <i data-lucide="brain"></i>
+                AI Research Intern
+            </h3>
+            <p><strong>Mode:</strong> Hybrid</p>
+            <p><strong>Duration:</strong> 6 Months</p>
+            <p><strong>Skills:</strong> Deep Learning, TensorFlow, NLP</p>
+            <button onclick="window.open('https://internshala.com/internships/artificial-intelligence-internship/','_blank')">
+                Apply Now
+            </button>
+        </div>
+
+        <div class="internship-card">
+            <h3>
+                <i data-lucide="chart-column"></i>
+                Data Analytics Intern
+            </h3>
+            <p><strong>Mode:</strong> Remote</p>
+            <p><strong>Duration:</strong> 2 Months</p>
+            <p><strong>Skills:</strong> SQL, Excel, Power BI</p>
+            <button onclick="window.open('https://internshala.com/internships/data-analytics-internship/','_blank')">
+                Apply Now
+            </button>
+        </div>
+
+        <div class="internship-card">
+            <h3>
+                <i data-lucide="laptop"></i>
+                Python Developer Intern
+            </h3>
+            <p><strong>Mode:</strong> Remote</p>
+            <p><strong>Duration:</strong> 4 Months</p>
+            <p><strong>Skills:</strong> Python, Flask, APIs</p>
+            <button onclick="window.open('https://internshala.com/internships/python-internship/','_blank')">
+                Apply Now
+            </button>
+        </div>
+
+        <div class="internship-card">
+            <h3>
+                <i data-lucide="chart-no-axes-column"></i>
+                Business Intelligence Intern
+            </h3>
+            <p><strong>Mode:</strong> Hybrid</p>
+            <p><strong>Duration:</strong> 3 Months</p>
+            <p><strong>Skills:</strong> Power BI, SQL, Excel</p>
+            <button onclick="window.open('https://internshala.com/internships/business-analytics-internship/','_blank')">
+                Apply Now
+            </button>
+        </div>
+
+        <div class="internship-card">
+            <h3>
+                <i data-lucide="scan-eye"></i>
+                Computer Vision Intern
+            </h3>
+            <p><strong>Mode:</strong> Remote</p>
+            <p><strong>Duration:</strong> 6 Months</p>
+            <p><strong>Skills:</strong> OpenCV, Python, Deep Learning</p>
+            <button onclick="window.open('https://internshala.com/internships/computer-vision-internship/','_blank')">
+                Apply Now
+            </button>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="projects" id="projects">
+
+    <h2>Featured AI Projects</h2>
+
+    <p class="section-subtitle">
+        Explore beginner-friendly AI projects to strengthen your portfolio and gain hands-on experience.
+    </p>
+
+    <div class="project-container">
+
+        <div class="project-card">
+            <h3><i class="fas fa-heart-pulse"></i> Disease Prediction</h3>
+            <p>Predict diseases based on symptoms using Machine Learning algorithms.</p>
+            <p><strong>Tech Stack:</strong> Python, Scikit-learn, Pandas</p>
+            <button onclick="window.open('https://github.com/topics/disease-prediction','_blank')">
+                View Project
+            </button>
+        </div>
+
+        <div class="project-card">
+            <h3><i class="fas fa-envelope-open-text"></i> Spam Email Detection</h3>
+            <p>Detect spam emails using Natural Language Processing techniques.</p>
+            <p><strong>Tech Stack:</strong> Python, NLP, Scikit-learn</p>
+            <button onclick="window.open('https://github.com/topics/spam-detection','_blank')">
+                View Project
+            </button>
+        </div>
+
+        <div class="project-card">
+            <h3><i class="fas fa-file-lines"></i> Resume Analyzer</h3>
+            <p>Analyze resumes and recommend suitable job roles using AI.</p>
+            <p><strong>Tech Stack:</strong> Python, Flask, NLP</p>
+            <button onclick="window.open('https://github.com/topics/resume-parser','_blank')">
+                View Project
+            </button>
+        </div>
+
+        <div class="project-card">
+            <h3><i class="fas fa-face-smile"></i> Face Detection</h3>
+            <p>Detect and recognize human faces using Computer Vision.</p>
+            <p><strong>Tech Stack:</strong> Python, OpenCV, TensorFlow</p>
+            <button onclick="window.open('https://github.com/topics/face-detection','_blank')">
+                View Project
+            </button>
+        </div>
+
+        <div class="project-card">
+            <h3><i class="fas fa-comments"></i> AI Chatbot</h3>
+            <p>Create an intelligent chatbot capable of answering user queries.</p>
+            <p><strong>Tech Stack:</strong> Python, Flask, OpenAI API</p>
+            <button onclick="window.open('https://github.com/topics/chatbot','_blank')">
+                View Project
+            </button>
+        </div>
+
+        <div class="project-card">
+            <h3><i class="fas fa-credit-card"></i> Credit Scoring</h3>
+            <p>Predict loan approval and creditworthiness using Machine Learning.</p>
+            <p><strong>Tech Stack:</strong> Python, XGBoost, Pandas</p>
+            <button onclick="window.open('https://github.com/topics/credit-risk','_blank')">
+                View Project
+            </button>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="testimonials">
+
+    <h2>Success Stories</h2>
+
+    <div class="testimonial-container">
+
+        <div class="testimonial-card">
+            <p>"AI Career Hub helped me learn Machine Learning from scratch and land my first internship."</p>
+            <h4>— AI Learner </h4>
+        </div>
+
+        <div class="testimonial-card">
+            <p>"The career roadmap made learning AI much easier and more organized."</p>
+            <h4>— Future ML Engineer </h4>
+        </div>
+
+        <div class="testimonial-card">
+            <p>"The project ideas and resources boosted my confidence for placements."</p>
+            <h4>— Data Science Student </h4>
+        </div>
+
+    </div>
+
+</section>
+<section class="contact" id="contact">
+
+    <h2>Contact Us</h2>
+    <p>
+        Have questions about AI learning or internships?
+        Let's connect and grow together.
+    </p>
+
+    <form>
+
+        <label for="name">Your Name</label>
+        <input type="text" id="name" placeholder="Your Name" required>
+        
+        <label for="email">Your Email</label>
+        <input type="email" id="email" placeholder="Your Email" required>
+
+        <label for="message">Your Message</label>
+        <textarea id="message" placeholder="Your Message"></textarea>
+
+        <button type="submit">Send Message</button>
+
+    </form>
+
+</section>
+
+<section class="stats">
+
+    <div class="stat-card">
+        <h2>100+</h2>
+        <p>AI Learning Resources</p>
+    </div>
+
+    <div class="stat-card">
+        <h2>50+</h2>
+        <p>Internship Opportunities</p>
+    </div>
+
+    <div class="stat-card">
+        <h2>25+</h2>
+        <p>Career Roadmaps</p>
+    </div>
+
+    <div class="stat-card">
+        <h2>1000+</h2>
+        <p>Students Inspired</p>
+    </div>
+
+</section>
+
+<footer>
+
+<i class="fas fa-graduation-cap"></i> AI Career Hub
+<p>
+Empowering future AI engineers through structured learning, practical projects, and career opportunities.
+</p>
+
+<p>
+Email: contact@aicareerhub.com
+</p>
+
+<p>
+<a href="https://github.com" target="_blank">GitHub</a> |
+<a href="https://www.linkedin.com" target="_blank">LinkedIn</a>
+</p>
+
+<p>
+© 2026 AI Career Hub. All Rights Reserved.
+</p>
+
+</footer>
+
+<script src="script.js"></script>
+<script>
+lucide.createIcons();
+</script>
+
+
+</body>
+
+</html>
